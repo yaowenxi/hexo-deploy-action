@@ -29,7 +29,7 @@ fi
 
 REPOSITORY_PATH="https://x-access-token:${PERSONAL_TOKEN}@github.com/${PRO_REPOSITORY}.git"
 
-echo "repository path is {REPOSITORY_PATH}"
+echo "repository path is ${REPOSITORY_PATH}"
 
 # deploy to 
 echo "Deploy to ${PRO_REPOSITORY}"
